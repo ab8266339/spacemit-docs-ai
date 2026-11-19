@@ -19,7 +19,7 @@ sidebar_position: 1
 
 ## 软件架构
 
-![软件架构](../static/ai-struction.png)
+![软件架构](../static/ai-structure.png)
 
 ## 文档结构
 
