@@ -6,6 +6,10 @@ This document presents SpacemiT’s proprietary AI computing architecture, built
 
 ---
 
+## Software Architecture
+
+![Software Architecture](../static/ai-struction.png)
+
 ## Document Structure
 
 - [1. Solutions](../solutions/index.md)

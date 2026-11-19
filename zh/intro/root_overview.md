@@ -17,6 +17,10 @@ sidebar_position: 1
 
 ---
 
+## 软件架构
+
+![软件架构](../static/ai-struction.png)
+
 ## 文档结构
 
 - [第一章 解决方案](../solutions/index.md)
