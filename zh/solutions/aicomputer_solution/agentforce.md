@@ -9,7 +9,7 @@
  * @FilePath: \doc\docs-ai\zh\solutions\aicomputer_solution\agentforce.md
  * @Description: 
 -->
-sidebar_position: 6
+sidebar_position: 7
 
 # 点将(AgentForce)
 
