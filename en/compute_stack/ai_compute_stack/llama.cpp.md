@@ -171,7 +171,7 @@ If `SPACEMIT0` is listed, start a single-slot server with a local GGUF. Set `MOD
 
 ```bash
 GGML_SPACEMIT_BACKEND=1 llama-server -m "$MODEL" --device SPACEMIT0 -ngl 99 \
-  -t 8 -tb 8 -np 1 -c 1024 -b 128 -ub 128 --host 127.0.0.1 --port 8080
+  -t 8 -tb 8 -np 1 -c 1024 -b 128 -ub 128 -lv 4 --host 127.0.0.1 --port 8080
 ```
 
 The startup log should show `using device SPACEMIT0`. Both the backend and the physical batch size (`-ub`) can affect prompt processing. When comparing backends, keep the GGUF, batch sizes, context size and input tokens the same. See the [SpacemiT v0.2.5 release](https://github.com/spacemit-com/llama.cpp/releases/tag/v0.2.5).
